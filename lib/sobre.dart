@@ -5,9 +5,10 @@ class SobreMim extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
+    return Scaffold (
       appBar: AppBar(
-        title: const Text('Sobre mim'),
+        title: Text('Sobre mim', style: TextStyle(fontWeight: FontWeight.bold)), centerTitle: true,
+        backgroundColor: Colors.deepPurple[600],
       ),
       body: Center(
         child: Column(
